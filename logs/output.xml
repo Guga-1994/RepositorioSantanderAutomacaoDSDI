@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.6 on win32)" generated="20210722 18:38:47.145" rpa="false" schemaversion="2">
+<suite id="s1" name="Tests" source="c:\SantanderAutomacaoDSDI\tests">
+<suite id="s1-s1" name="Fim a Fim DSDI" source="c:\SantanderAutomacaoDSDI\tests\Fim_a_Fim_DSDI.robot">
+<test id="s1-s1-t1" name="Cenario 02: Upload dos templates">
+<kw name="Quando eu informo o site de produção" library="action_upload">
+<for flavor="IN RANGE">
+<var>${COUNT}</var>
+<value>0</value>
+<value>6</value>
+<iter>
+<var name="${COUNT}">0</var>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20210722 18:39:22.618" level="INFO">Params: [TAB]
+[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20210722 18:39:20.786" endtime="20210722 18:39:22.619"/>
+</kw>
+<status status="PASS" starttime="20210722 18:39:20.783" endtime="20210722 18:39:22.620"/>
+</iter>
+<iter>
+<var name="${COUNT}">1</var>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20210722 18:39:22.829" level="INFO">Params: [TAB]
+[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20210722 18:39:22.624" endtime="20210722 18:39:22.830"/>
+</kw>
+<status status="PASS" starttime="20210722 18:39:22.622" endtime="20210722 18:39:22.832"/>
+</iter>
+<iter>
+<var name="${COUNT}">2</var>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20210722 18:39:23.047" level="INFO">Params: [TAB]
+[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20210722 18:39:22.836" endtime="20210722 18:39:23.049"/>
+</kw>
+<status status="PASS" starttime="20210722 18:39:22.833" endtime="20210722 18:39:23.052"/>
+</iter>
+<iter>
+<var name="${COUNT}">3</var>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20210722 18:39:23.217" level="INFO">Params: [TAB]
+[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20210722 18:39:23.055" endtime="20210722 18:39:23.219"/>
+</kw>
+<status status="PASS" starttime="20210722 18:39:23.053" endtime="20210722 18:39:23.219"/>
+</iter>
+<iter>
+<var name="${COUNT}">4</var>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20210722 18:39:23.367" level="INFO">Params: [TAB]
+[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20210722 18:39:23.223" endtime="20210722 18:39:23.368"/>
+</kw>
+<status status="PASS" starttime="20210722 18:39:23.221" endtime="20210722 18:39:23.369"/>
+</iter>
+<iter>
+<var name="${COUNT}">5</var>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>TAB</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20210722 18:39:23.509" level="INFO">Params: [TAB]
+[log]  TYPE "#TAB."</msg>
+<status status="PASS" starttime="20210722 18:39:23.371" endtime="20210722 18:39:23.511"/>
+</kw>
+<status status="PASS" starttime="20210722 18:39:23.370" endtime="20210722 18:39:23.512"/>
+</iter>
+<status status="PASS" starttime="20210722 18:39:20.778" endtime="20210722 18:39:23.514"/>
+</for>
+<kw name="Press Special Key" library="SikuliLibrary">
+<arg>C_DOWN</arg>
+<doc>Press special key
+ Presses a special keyboard key.</doc>
+<msg timestamp="20210722 18:39:23.669" level="INFO">Params: [C_DOWN]
+[log]  TYPE "#DOWN."</msg>
+<status status="PASS" starttime="20210722 18:39:23.516" endtime="20210722 18:39:23.670"/>
+</kw>
+<status status="PASS" starttime="20210722 18:39:20.772" endtime="20210722 18:39:23.671"/>
+</kw>
+<tag>cenario2</tag>
+<status status="PASS" starttime="20210722 18:39:20.761" endtime="20210722 18:39:23.677"/>
+</test>
+<kw name="Encerrar Sessão" library="action_login" type="TEARDOWN">
+<kw name="Stop Remote Server" library="SikuliLibrary">
+<doc>Stops the remote server.</doc>
+<msg timestamp="20210722 18:39:23.740" level="INFO">Robot Framework remote server stopping</msg>
+<status status="PASS" starttime="20210722 18:39:23.700" endtime="20210722 18:39:23.742"/>
+</kw>
+<status status="PASS" starttime="20210722 18:39:23.698" endtime="20210722 18:39:23.744"/>
+</kw>
+<doc>Suite de teste de login no DSDI</doc>
+<status status="PASS" starttime="20210722 18:38:47.751" endtime="20210722 18:39:23.745"/>
+</suite>
+<status status="PASS" starttime="20210722 18:38:47.179" endtime="20210722 18:39:23.765"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">cenario2</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Fim a Fim DSDI">Tests.Fim a Fim DSDI</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

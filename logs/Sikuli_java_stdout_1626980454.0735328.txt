@@ -1,0 +1,203 @@
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+1 [main] INFO org.eclipse.jetty.server.Server  - jetty-7.x.y-SNAPSHOT
+224 [main] INFO org.eclipse.jetty.server.handler.ContextHandler  - started o.e.j.s.ServletContextHandler{/,null}
+2021-07-22 16:01:00
+Full thread dump Java HotSpot(TM) 64-Bit Server VM (25.301-b09 mixed mode):
+
+"qtp529116035-17" #17 prio=5 os_prio=0 tid=0x0000019060ec4800 nid=0x36b8 waiting on condition [0x0000001089ffe000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000000d679fa28> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:337)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:521)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$600(QueuedThreadPool.java:39)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:567)
+	at java.lang.Thread.run(Unknown Source)
+
+"qtp529116035-16" #16 prio=5 os_prio=0 tid=0x0000019060ec3800 nid=0x28ac waiting on condition [0x0000001089efe000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000000d679fa28> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:337)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:521)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$600(QueuedThreadPool.java:39)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:567)
+	at java.lang.Thread.run(Unknown Source)
+
+"qtp529116035-15" #15 prio=5 os_prio=0 tid=0x0000019060ec3000 nid=0x674 waiting on condition [0x0000001089dfe000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000000d679fa28> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:337)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:521)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$600(QueuedThreadPool.java:39)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:567)
+	at java.lang.Thread.run(Unknown Source)
+
+"qtp529116035-14" #14 prio=5 os_prio=0 tid=0x0000019060ec0000 nid=0x3050 waiting on condition [0x0000001089cff000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000000d679fa28> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:337)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:521)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$600(QueuedThreadPool.java:39)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:567)
+	at java.lang.Thread.run(Unknown Source)
+
+"qtp529116035-13" #13 prio=5 os_prio=0 tid=0x0000019060ebf800 nid=0xf74 waiting on condition [0x0000001089bff000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000000d679fa28> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:337)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:521)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$600(QueuedThreadPool.java:39)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:567)
+	at java.lang.Thread.run(Unknown Source)
+
+"qtp529116035-12" #12 prio=5 os_prio=0 tid=0x0000019060eb8800 nid=0x3334 waiting on condition [0x0000001089aff000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000000d679fa28> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:337)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:521)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$600(QueuedThreadPool.java:39)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:567)
+	at java.lang.Thread.run(Unknown Source)
+
+"qtp529116035-11" #11 prio=5 os_prio=0 tid=0x0000019060eb7800 nid=0x37a4 waiting on condition [0x00000010899ff000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000000d679fa28> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:337)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:521)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$600(QueuedThreadPool.java:39)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:567)
+	at java.lang.Thread.run(Unknown Source)
+
+"qtp529116035-10" #10 prio=5 os_prio=0 tid=0x0000019060eb6800 nid=0x668 waiting on condition [0x00000010898ff000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000000d679fa28> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:337)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:521)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$600(QueuedThreadPool.java:39)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:567)
+	at java.lang.Thread.run(Unknown Source)
+
+"Service Thread" #9 daemon prio=9 os_prio=0 tid=0x00000190600ad800 nid=0x3870 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C1 CompilerThread2" #8 daemon prio=9 os_prio=2 tid=0x0000019060084800 nid=0x2fb8 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread1" #7 daemon prio=9 os_prio=2 tid=0x000001906002d800 nid=0x19f0 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" #6 daemon prio=9 os_prio=2 tid=0x000001906002b000 nid=0x3be0 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Attach Listener" #5 daemon prio=5 os_prio=2 tid=0x0000019060027800 nid=0xd94 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Signal Dispatcher" #4 daemon prio=9 os_prio=2 tid=0x0000019060026800 nid=0x16c4 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Finalizer" #3 daemon prio=8 os_prio=1 tid=0x000001906000b800 nid=0x3078 in Object.wait() [0x00000010890ff000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000000d6008ee0> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	- locked <0x00000000d6008ee0> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+"Reference Handler" #2 daemon prio=10 os_prio=2 tid=0x000001904b2cd000 nid=0x2c48 in Object.wait() [0x0000001088ffe000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000000d6006c00> (a java.lang.ref.Reference$Lock)
+	at java.lang.Object.wait(Unknown Source)
+	at java.lang.ref.Reference.tryHandlePending(Unknown Source)
+	- locked <0x00000000d6006c00> (a java.lang.ref.Reference$Lock)
+	at java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+
+"main" #1 prio=5 os_prio=0 tid=0x00000190494b7800 nid=0x31d8 runnable [0x00000010889fc000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.NetworkInterface.getAll(Native Method)
+	at java.net.NetworkInterface.getNetworkInterfaces(Unknown Source)
+	at sun.security.provider.SeedGenerator.addNetworkAdapterInfo(Unknown Source)
+	at sun.security.provider.SeedGenerator.access$000(Unknown Source)
+	at sun.security.provider.SeedGenerator$1.run(Unknown Source)
+	at sun.security.provider.SeedGenerator$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.security.provider.SeedGenerator.getSystemEntropy(Unknown Source)
+	at sun.security.provider.SecureRandom$SeederHolder.<clinit>(Unknown Source)
+	at sun.security.provider.SecureRandom.engineNextBytes(Unknown Source)
+	- locked <0x00000000d68c66c8> (a sun.security.provider.SecureRandom)
+	at java.security.SecureRandom.nextBytes(Unknown Source)
+	at sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(Unknown Source)
+	at sun.nio.ch.PipeImpl$Initializer.run(Unknown Source)
+	at sun.nio.ch.PipeImpl$Initializer.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.nio.ch.PipeImpl.<init>(Unknown Source)
+	at sun.nio.ch.SelectorProviderImpl.openPipe(Unknown Source)
+	at java.nio.channels.Pipe.open(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.<init>(Unknown Source)
+	at sun.nio.ch.WindowsSelectorProvider.openSelector(Unknown Source)
+	at java.nio.channels.Selector.open(Unknown Source)
+	at org.eclipse.jetty.io.nio.SelectorManager$SelectSet.<init>(SelectorManager.java:411)
+	at org.eclipse.jetty.io.nio.SelectorManager.doStart(SelectorManager.java:256)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	- locked <0x00000000d63fff98> (a java.lang.Object)
+	at org.eclipse.jetty.util.component.AggregateLifeCycle.doStart(AggregateLifeCycle.java:63)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:319)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:260)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	- locked <0x00000000d63ed708> (a java.lang.Object)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:271)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	- locked <0x00000000d6337c20> (a java.lang.Object)
+	at org.robotframework.remoteserver.RemoteServer.start(RemoteServer.java:311)
+	at com.github.rainmanwy.robotframework.sikulilib.SikuliLibrary.main(SikuliLibrary.java:34)
+
+"VM Thread" os_prio=2 tid=0x000001905ffe1800 nid=0x2fa8 runnable 
+
+"GC task thread#0 (ParallelGC)" os_prio=0 tid=0x00000190494d5800 nid=0xcc0 runnable 
+
+"GC task thread#1 (ParallelGC)" os_prio=0 tid=0x00000190494d6800 nid=0x2f38 runnable 
+
+"GC task thread#2 (ParallelGC)" os_prio=0 tid=0x00000190494da000 nid=0x38fc runnable 
+
+"GC task thread#3 (ParallelGC)" os_prio=0 tid=0x00000190494dc800 nid=0x231c runnable 
+
+"VM Periodic Task Thread" os_prio=2 tid=0x00000190600b2800 nid=0x3478 waiting on condition 
+
+JNI global references: 16
+
+Heap
+ PSYoungGen      total 37888K, used 9199K [0x00000000d6000000, 0x00000000d8a00000, 0x0000000100000000)
+  eden space 32768K, 28% used [0x00000000d6000000,0x00000000d68fbd40,0x00000000d8000000)
+  from space 5120K, 0% used [0x00000000d8500000,0x00000000d8500000,0x00000000d8a00000)
+  to   space 5120K, 0% used [0x00000000d8000000,0x00000000d8000000,0x00000000d8500000)
+ ParOldGen       total 86016K, used 0K [0x0000000082000000, 0x0000000087400000, 0x00000000d6000000)
+  object space 86016K, 0% used [0x0000000082000000,0x0000000082000000,0x0000000087400000)
+ Metaspace       used 6391K, capacity 6544K, committed 6784K, reserved 1056768K
+  class space    used 781K, capacity 820K, committed 896K, reserved 1048576K
+
+4201 [main] INFO org.eclipse.jetty.server.AbstractConnector  - Started SelectChannelConnector@0.0.0.0:59941
